@@ -24,6 +24,7 @@ int main(int argc, char** argv)
 		// send message to server
 		stream << "Hello from client Embedded June\n";
 
+		// receive message from server
 		std::string line;
 		std::getline(stream, line);
 		std::cout << line << std::endl;
